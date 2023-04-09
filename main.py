@@ -17,6 +17,7 @@ check_js = block.find('div', id="javascript_check")
 status_js = check_js.find_all('span')[1].text
 result_js = f'javascript:{status_js}'
 
+
 """ Check Flash """
 ckeck_flash = block.find('div', id="flash_version")
 status_flash = ckeck_flash.find_all('span')[1].text
